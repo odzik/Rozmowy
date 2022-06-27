@@ -1,0 +1,9 @@
+body{
+	background-image:url(http://infirmarypc.co.uk/Nowa%20strona/grafika/logo1.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	min-width: 300px;
+	min-height: 300px;
+	color: red;
+	font-size: 30px;
+}

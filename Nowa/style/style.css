@@ -1,0 +1,1115 @@
+body
+{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+#cookie{
+	position: fixed;
+	background-color: rgba(00,00,00,0.7);
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	z-index: 99999999;
+	top:0;
+	display: none;
+}
+#cookie #text-cook{
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	width: 1500px;
+	color: white;
+}
+#cookie input[type=button]{
+	border:none;
+	background-color: limegreen;
+	width: 250px;
+	height: auto;
+	clear: both;
+	color: white;
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: 2px;
+	padding: 10px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	outline: none;
+}
+#menu-content
+{
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	top:0;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+	display:inline-block;
+	z-index: 9999;
+}
+#menu
+{
+	width: auto;
+	margin-right: auto;
+	margin-left:auto;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+#menu ul
+{
+	list-style-type: none;
+	margin-top: auto;
+	float:left;
+}
+#menu ul .logo 
+{
+	display: inline-block;
+	width: 480px;
+	margin-right: 100px;
+}
+#menu ul .logo .logo-speech
+{
+	margin-top: 10px;
+	margin-bottom: 0;
+	color: white;
+	font-family: 'arial', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+#menu ul .logo .logo-speech-key
+{
+	color: #ff8833;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 4PX;
+	margin: 0;
+}
+#menu ul .logo img
+{
+	width: 40px;
+	height: 40px;
+	float:left;
+}
+#menu ul a:hover li
+{
+	background-color: #00619e;
+	color: white;
+}
+#menu ul li:hover
+{
+	background-color: #00619e;
+	color: white;
+	cursor: pointer;
+}
+#menu ul li
+{
+	display: inline-block;
+	width: 150px;
+	background-color: white;
+	padding: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	color: #00619e;
+	vertical-align: top;
+	margin-top: 15px;
+	border-radius: 30px;
+	margin-right: 30px;
+	padding-top:10px;
+}
+#menu #jezyk
+{
+	padding: 0;
+}
+#menu #jezyk img
+{
+	width: 100px;
+	height: 40px;
+	margin-top: 10px;
+	margin-right: 50px;
+	padding: 0;
+	box-sizing: border-box;
+}
+#menu #jezyk img:hover
+{
+	cursor: pointer;
+}
+body #lokalizator
+{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background: #00619e;
+	text-align: center;
+	display:inline-block;
+}
+body #lokalizator #social
+{
+	display: inline-block;
+	width: auto;
+	height: 30px;
+	margin: 0;
+	float:left;
+}
+body #lokalizator #social ul
+{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body #lokalizator #social ul li
+{
+	float:left;
+	margin-right: 2px;
+}
+body #lokalizator #social ul li:nth-child(2)
+{
+	margin-top: 4px;
+	margin-right: 4px;
+}
+body #lokalizator #social ul li:nth-child(3)
+{
+	margin-top: 3px;
+}
+body #lokalizator #social ul li:nth-child(4)
+{
+	margin-top: 5px;
+}
+body #lokalizator #subskrypcja
+{
+	float:left;
+	margin-left: 20px;
+}
+body #lokalizator #subskrypcja form
+{
+	display:none;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	margin: 0;
+}
+body #lokalizator #subskrypcja form input[name=personalia]
+{
+	border: none;
+	border-radius: 10px;
+	height: 20px;
+	width: 250px;
+	text-align: center;
+	background-color: white;
+	color: #00619e;
+	margin-top: 0;
+}
+body #lokalizator #subskrypcja form input[name=telefon]
+{
+	border: none;
+	border-radius: 10px;
+	height: 20px;
+	width: 250px;
+	text-align: center;
+	background-color: white;
+	color: #00619e;
+	margin-top: 0;
+}
+body #lokalizator #subskrypcja form input[name=email]
+{
+	border: none;
+	border-radius: 10px;
+	height: 20px;
+	width: 250px;
+	text-align: center;
+	background-color: white;
+	color: #00619e;
+	margin-top: 0;
+}
+body #lokalizator #subskrypcja form input[name=wyslij1]
+{
+	border: none;
+	border-radius: 10px;
+	height: 20px;
+	width: 100px;
+	text-align: center;
+	background-color: limegreen;
+	color: white;
+	outline: none;
+}
+body #lokalizator #subskrypcja form input[name=wyslij1]:hover
+{
+	background-color: white;
+	color: limegreen;
+	cursor: pointer;
+}
+
+body #lokalizator #subskrypcja form input[name=email]::-webkit-input-placeholder
+{
+	color: #00619e;
+}
+body #lokalizator #subskrypcja form input[name=personalia]::-webkit-input-placeholder
+{
+	color: #00619e;
+}
+body #lokalizator #subskrypcja form input[name=telefon]::-webkit-input-placeholder
+{
+	color: #00619e;
+}
+body #lokalizator #subskrypcja #podziekowania
+{
+	display: none;
+	padding: 5px;
+	color: white;
+	font-family: arial, serif;
+	font-size: 17px;
+	font-weight: 550px;
+	letter-spacing: 3px;
+}
+body #subskrypcja #lokalizacja
+{
+	display: none;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+}
+body #subskrypcja #lokalizacja ul
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+body #subskrypcja #lokalizacja ul li
+{
+	padding: 5px 5px;
+}
+body #subskrypcja #lokalizacja ul li a
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 450;
+	letter-spacing: 2px;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+body #lokalizator #contact
+{
+	float:right;
+	margin: 0;
+	padding: 0;
+}
+body #lokalizator #contact .tel
+{
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 0;
+	padding: 5px;
+	letter-spacing: 4px;
+	color: white;
+	font-family: 'arial', serif;
+	font-size: 17px;
+	text-decoration: none;
+	font-weight: 600;
+	box-sizing: border-box
+}
+body #lokalizator #contact .email
+{
+	float:right;
+	margin-right: 20px;
+	margin-bottom: 0;
+	padding: 5px;
+	letter-spacing: 2px;
+	color: white;
+	font-family: 'arial', serif;
+	font-size: 17px;
+	font-weight: 600;
+	box-sizing: border-box
+
+}
+body #slajder
+{
+	margin-top:100px;
+	padding: 0;
+	margin-bottom: 0;
+	min-height: 835px;
+	position: relative;
+}
+body #slajder #slajder-content
+{
+	width: 100%;
+	height: 835px;
+	margin: 0;
+	padding: 0;
+	left:0;
+	position: absolute;
+}
+body #slajder #slajder-content ul
+{
+	list-style-type: none;
+	margin: 0;
+	left:0;
+}
+body #slajder #slajder-content ul li
+{
+	width: 100%;
+	left: 0;
+	right: 0;
+}
+body #slajder #slajder-content ul li img
+{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	left:0;
+	top:0;
+	resize: vertical;
+	opacity: 0;	
+	position: absolute;
+}
+body #slajder #nawigacja-lewo i
+{
+	position:relative;
+	margin-top: 17%;
+	font-size: 80px;
+	float:left;
+	color: #ff8833;
+	z-index: 500;
+	cursor: pointer;
+}
+body #slajder #nawigacja-prawo i
+{
+	position:relative;
+	font-size: 80px;
+	margin-top: 17%;
+	float:right;
+	color: #ff8833;
+	z-index: 500;
+	cursor: pointer;
+}
+#Title
+{
+	margin-left: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+	float:left;
+}
+#Title ul
+{
+	list-style-type: none;
+}
+#Title ul li
+{
+	opacity: 0;
+	position: absolute;
+	height: auto;
+}
+#Title ul li h2
+{
+	position:relative;
+	margin-top: 0;
+	font-size: 80px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	color: white;
+	z-index: 500;
+	background-color: rgba(0, 0, 0, 0.7); 
+}
+#text-content
+{
+	margin-left: 162px;
+	top: 97px;
+	padding: 0;
+	position: absolute;
+}
+#text-content ul
+{
+	list-style-type: none;
+}
+#text-content ul li
+{
+	position: absolute;
+	width: 700px;
+	background-color: rgba(0, 0, 0, 0.7); 
+	opacity: 0;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	letter-spacing: 3PX;
+	line-height: 150%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+	float:left;
+	color: white;
+	padding: 25px;
+	z-index: 500;
+}
+body #uslugi-content
+{
+	clear: both;
+	margin: 0;
+	width: 100%;
+	height: 845px;
+	padding: 0;
+	left:0;
+	box-sizing: border-box;
+}
+body #uslugi-content #uslugi-tlo
+{
+	background-image: url(../grafika/uslugi.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	width: 100%;
+	height: 845px;
+	position: absolute;
+}
+h3
+{
+	position:absolute;
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+	font-size: 80px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	color: white;
+	z-index: 500;
+	text-align: center;
+}
+body #uslugi-content #uslugi
+{
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 100;
+	width: 100%;
+	height: 845px;
+	padding: 0;
+	position: absolute;
+}
+body #uslugi-content #uslugi form
+{
+	width: 90%;
+	height: 650px;
+	background-color: rgba(0, 97, 158, 0.6);
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+}
+#uslugi-content #uslugi form ul
+{
+	list-style-type: none;
+	padding:30px;
+	margin: 0;
+	display: block;
+}
+
+#uslugi-content #uslugi form ul li input
+{
+	border-style: none;
+	border-radius: 5px;
+	width: 300px;
+	color: #00619e;
+	font-family: arial, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px;
+	clear: both;
+	box-sizing: border-box;
+	margin-bottom: 25px;
+}
+#uslugi-content #uslugi form ul li input[class="greenground"]
+{
+	background-color: limegreen; 
+	color: white;
+}
+#uslugi-content #uslugi form ul li textarea[class="greenground"]
+{
+	background-color: limegreen; 
+	color: white;
+}
+#uslugi-content #uslugi form ul li select[class="greenground"]
+{
+	background-color: limegreen; 
+	color: white;
+}
+#uslugi-content #uslugi form ul li select[class="greenground"] option
+{
+	background-color: limegreen; 
+	color: white;
+}
+#uslugi-content #uslugi form ul li input[class="redground"]
+{
+	background-color: orangered; 
+	color: white;
+}
+#uslugi-content #uslugi form ul li textarea[class="redground"]
+{
+	background-color: orangered; 
+	color: white;
+}
+#uslugi-content #uslugi form ul li select[class="redground"]
+{
+	background-color: orangered; 
+	color: white; !important
+}
+#uslugi-content #uslugi form ul li select[class="redground"] option
+{
+	background-color: orangered; 
+	color: white; !important
+}
+#uslugi-content #uslugi form ul li input::-webkit-input-placeholder
+{
+	color: #00619e; 
+}
+#uslugi-content #uslugi form ul li input[class="greenground"]::-webkit-input-placeholder
+{
+	color:white;
+}
+#uslugi-content #uslugi form ul li textarea[class="greenground"]::-webkit-input-placeholder
+{
+	color:white;
+}
+#uslugi-content #uslugi form ul li input::-webkit-input-placeholder
+{
+	color: #00619e; 
+}
+#uslugi-content #uslugi form ul li input[class="redground"]::-webkit-input-placeholder
+{
+	color:white;
+}
+#uslugi-content #uslugi form ul li textarea[class="redground"]::-webkit-input-placeholder
+{
+	color:white;
+}
+#uslugi-content #uslugi form ul li select[name=uslugi]
+{
+	font-size: 16px;
+	min-width: 665px;
+	height: 240px;
+	margin-right: auto;
+	border: none;
+	float: inherit;
+	overflow:hidden;
+	border-radius: 10px;
+	margin-left: 350px;
+	margin-top: 15px;
+	position: absolute;
+	padding: 10px;
+	color: #00619e;
+	margin-bottom: 0;
+}
+#uslugi-content #uslugi form ul li textarea
+{
+	font-size: 16px;
+	height: 230px;
+	width: 645px;
+	border: none;
+	overflow:hidden;
+	border-radius: 10px;
+	top:440px;
+	margin-left: 350px;
+	position: absolute;
+	padding: 10px;
+	color: #00619e;
+	text-align: center;
+}
+#uslugi-content #uslugi form ul li textarea::-webkit-input-placeholder
+{
+	color: #00619e; 
+}
+#uslugi-content #uslugi form ul li select[name=kindpc2]
+{
+	border-style: none;
+	border-radius: 5px;
+	width: 300px;
+	color: #00619e;
+	font-family: 'arial', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px 0 3px 125px;
+	clear: both;
+	margin-bottom: 25px;
+}
+#uploading{
+	min-height: 40px;
+}
+.error
+{
+	width: 325px;
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 5px;
+	color: red;
+}
+.uploading
+{
+	width: 325px;
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 5px;
+	color: orange;
+}
+.success
+{
+	width: 325px;
+	text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 5px;
+	color: limegreen;
+}
+#uslugi-content #uslugi form ul fieldset
+{
+	width: 900px;
+	height: 90px;
+	margin-top: 40px;
+}
+#uslugi-content #uslugi form ul fieldset legend
+{
+	color: white;
+	font-family: 'arial', serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+#uslugi-content #uslugi form ul fieldset li
+{
+	margin:0;
+	padding: 0;
+	margin-bottom: 10px
+}
+#uslugi-content #uslugi form ul fieldset li input
+{
+	margin:0;
+	padding: 0;
+	width: 15px;
+	float:left;
+}
+#uslugi-content #uslugi form ul fieldset li label
+{
+	color: white;;
+	font-family: 'arial', sans-serif;
+	font-size: 16px;
+	letter-spacing: 3px;
+	
+}
+#uslugi-content #uslugi form ul li select[name=kindsystem2]
+{
+	border-style: none;
+	border-radius: 5px;
+	width: 300px;
+	color: #00619e;
+	font-family: 'arial', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px 0 3px 120px;
+	clear: both;
+	margin-bottom: 25px;
+}
+#uslugi-content #uslugi form ul li input[name=zdjecia]
+{
+	border: none;
+	border-color: white;
+	width: 300px;
+	box-sizing: border-box;
+	display: inline-block;
+	cursor: pointer;
+	background-color: white;
+}
+#uslugi-content #uslugi form ul li input[name=sub]
+{
+	border: none;
+	background-color: limegreen;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	right: 150px;
+	top:725px;
+	padding: 10px;
+	border-radius: 35px;
+	outline: none;
+}
+#uslugi-content #uslugi form ul li input[name=sub]:hover
+{
+	background-color: white;
+	color: limegreen;
+}
+#uslugi-content #uslugi form ul li input[type=reset]
+{
+	border: none;
+	background-color: orangered;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	right: 500px;
+	top:725px;
+	border-radius: 35px;
+	padding: 10px;
+	outline: none;
+}
+#uslugi-content #uslugi form ul li input[type=reset]:hover
+{
+	background-color: white;
+	color: orangered;
+}
+#uslugi-content #uslugi form ul #op
+{
+	height: 260px;
+	width: 630px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+	right: 120px;
+	top:195px;
+	color: white;
+	position: absolute;
+	border-radius: 10px;
+	box-sizing: border-box;
+	overflow-y:auto;
+}
+#uslugi-content #uslugi form ul #op #desc
+{
+	color: white;
+	width: 600px;
+	font-family: arial, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin: auto;
+}
+#uslugi-content #uslugi form ul #op #description
+{
+	clear: both;
+	width: 550px;
+	color: white;
+	font-family: arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+}
+#uslugi-content #uslugi form ul #podliczenie
+{
+	height: 230px;
+	width: 630px;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+	right: 120px;
+	top:460px;
+	color: white;
+	position: absolute;
+	border-radius: 10px;
+	box-sizing: border-box;
+	overflow-y:auto;
+}
+#uslugi-content #uslugi form ul #podliczenie span
+{
+	color: white;
+	font-family: arial, sans-serif;
+	font-size: 22px;
+	text-align: center;
+	margin-left: 40%;
+}
+#uslugi-content #uslugi form ul #podliczenie table
+{
+	width: 500px;
+	height: 170px;
+	margin: 0;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: scroll;
+}
+#uslugi-content #uslugi form ul #podliczenie table tr:nth-child(1)
+{
+	text-align: center;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 26px; 
+}
+#uslugi-content #uslugi form ul #podliczenie table tr
+{
+	text-align: center;
+	color: white;
+	font-family: 'arial', sans-serif;
+	font-size: 16px; 
+}
+#uslugi-content #uslugi form ul #podliczenie table tr:nth-last-child(1)
+{
+	text-align: center;
+	color: white;
+	font-family: 'arial', sans-serif;
+	font-size: 20px; 
+	font-weight: 500;
+	margin-top: 35px;
+}
+#uslugi-content #uslugi form ul #podliczenie table tr:nth-last-child(1) td
+{
+	border-top: 2px solid white;
+}
+#order-complete{
+	opacity:0;
+	margin-left: auto;
+	margin-right: auto;
+	width:1000px;
+	position: absolute;
+	top:150px;
+	left: 450px;
+	display: block;
+	text-align: center;
+}
+#order-complete span{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 46px;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+	position: relative;
+}
+#order-complete i{
+	font-family: 'Arial', sans-serif;
+	font-size: 16px;
+	text-align: justify;
+	color: white;
+	position: relative;
+}
+#order-complete #order-thanks{
+	height: 300px;
+	width: 300px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-image: url(../grafika/okey.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	backface-visibility: visible;
+	position: relative;
+}
+#kontakt{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-height: 825px;
+	background-color:black;
+}
+#kontakt #kontakt-content{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin:0;
+	padding: 0;
+}
+#kontakt #kontakt-content h4{
+	margin-top: 15px;
+	font-size: 80px;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 200;
+	letter-spacing: 2px;
+	color: #ff8833;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#kontakt #kontakt-content #kontakt-image{
+	width: 630px;
+	height: 750px;
+	margin: 0;
+	padding: 0;
+	background-image: url(../grafika/kontakt-wizit.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float:right;
+}
+#kontakt #kontakt-content #kontakt-form{
+	min-width: 1200px;
+	min-height: 700px;
+	margin-left: 30px;
+	margin-top: 20px;
+	float:left;
+	background-color: white;
+	border-radius: 30px;
+	padding: 30px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#kontakt #kontakt-content #kontakt-form form{
+	margin: 0;
+	padding: 0;
+	min-width: 1140px;
+	min-height: 640px;
+}
+#kontakt #kontakt-content #kontakt-form form ul{
+	list-style: none;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#kontakt #kontakt-content #kontakt-form form ul li{
+	margin-right: 30px;
+	float:left;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(4){
+	margin-right: 0;
+}
+#kontakt #kontakt-content #kontakt-form form ul li input{
+	width: 200px;
+	height: 30px;
+	border:none;
+	background-color: #ff8833;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+}
+#kontakt #kontakt-content #kontakt-form form ul li input::-webkit-input-placeholder{
+	color: white;
+	text-align: center;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(5){
+	clear: both;
+	margin-top: 15px;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(6){
+	float:left;
+	margin-top: 15px;
+	margin-left: 230px;
+	margin-right: 30px;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(6) input{
+	background-color: red;
+	cursor: pointer;
+	border-radius: 15px;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(6) input:hover{
+	background-color: white;
+	border: 1px solid #ff8833;
+	color:red;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(7){
+	float:left;
+	margin-top: 15px;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(7) input{
+	background-color: limegreen;
+	cursor: pointer;
+	border-radius: 15px;
+	outline: none;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(7) input:hover{
+	background-color: white;
+	border: 1px solid #ff8833;
+	color:limegreen;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(5) textarea{
+	height: 500px;
+	width: 890px;
+	background-color: #ff8833;
+	border:none;
+	border-radius: 5px;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+}
+#kontakt #kontakt-content #kontakt-form form ul li:nth-child(5) textarea::-webkit-input-placeholder{
+	color: white;
+}
+.sprawdzone{
+	background-color: darkgreen !important;
+}
+.blad{
+	background-color: darkred !important;
+}
+
+#stopka{
+	clear: both;
+	width: 100%;
+	min-height: 350px;
+	padding: 0;
+	margin: 0;
+	background-image: url(../grafika/stopka.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#stopka #stopka-content{
+	width: 100%;
+	height: 350px;
+	background: rgba(00, 00, 00, 0.7);
+	margin: 0;
+	padding: 0;
+}
+#stopka #stopka-content #footer-content{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#stopka #stopka-content #stopka-list{
+	width: 600px;
+	height: auto;
+	text-align: center;
+	margin-top: 80px;
+	float:left;
+}
+#stopka #stopka-content #stopka-list ul{
+	list-style:none;
+	margin:0;
+	padding: 5px;
+}
+#stopka #stopka-content #stopka-list ul li{
+	margin-bottom: 4px;
+}
+#stopka #stopka-content #stopka-list ul li h1{
+	margin: 0;
+	color: white;
+	font-size: 25px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+#stopka #stopka-content #stopka-list ul li:nth-child(1) h1{
+	color: #ff8833;
+	font-size: 30px;
+	font-weight: 700;
+}
+#stopka #stopka-content #stopka-list ul li:nth-child(3) h1{
+	color:white;
+	text-decoration: none;
+}
+#stopka #stopka-content #logo-image{
+	float:left;
+	margin-top:10px;
+}
+#stopka #stopka-content #logo-image img{
+	width: 400px;
+	height: 325px;
+	
+}

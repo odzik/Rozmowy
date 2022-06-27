@@ -1,0 +1,3 @@
+
+.nawigacja-right-dir:before { content: '\e801'; } /* '' */
+.nawigacja-left-dir:before { content: '\e802'; } /* '' */
